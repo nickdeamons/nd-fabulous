@@ -1,0 +1,8 @@
+a:not([class]) {
+    /*some styling here*/
+    color:$color-blue;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
