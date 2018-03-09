@@ -1,0 +1,27 @@
+// margin
+.u-margin {
+    &--top {
+      margin-top: $mobile-spacing-unit;
+      @include breakpoint($width-lg) {
+        margin-top: $grid-spacing-unit;
+      }
+    }
+    &--bottom {
+      margin-bottom: $mobile-spacing-unit;
+      @include breakpoint($width-lg) {
+        margin-bottom: $grid-spacing-unit;
+      }
+    }
+    &--all {
+      margin: $mobile-spacing-unit;
+      @include breakpoint($width-lg) {
+        margin: $grid-spacing-unit;
+      }
+    }
+    &--c {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  

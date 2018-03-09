@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{{title}}</title>
+
+
+
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+
+	{{#if fabricator}}<link rel="stylesheet" href="{{#if config.baseurl}}{{ config.baseurl }}/{{/if}}assets/styles/f.css">{{/if}}
+
+	<!-- toolkit styles -->
+	<link rel="stylesheet" href="{{#if config.baseurl}}{{ config.baseurl }}/{{/if}}assets/styles/main.css">
+	<!-- /toolkit styles -->
+
+</head>
+<body>
+
+	{{#if fabricator}}
+		{{> f-icons}}
+		{{> f-menu}}
+		<div class="f-container">
+			{{> f-control-bar}}
+	{{/if}}
+
+
+	{% body %}
+
+
+	{{#if fabricator}}
+		</div>
+	<script src="{{#if config.baseurl}}{{ config.baseurl }}/{{/if}}assets/scripts/fabricator/f.js"></script>
+	{{/if}}
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+	<!-- toolkit scripts -->
+	<script src="{{#if config.baseurl}}{{ config.baseurl }}/{{/if}}assets/scripts/main.js"></script>
+	<!-- /toolkit scripts -->
+
+</body>
+</html>

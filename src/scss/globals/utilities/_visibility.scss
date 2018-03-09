@@ -1,0 +1,16 @@
+.u-hidden {
+    display:none;
+    &\@lg {
+        @include breakpoint($width-lg) {
+            display:none;
+        }
+    }
+}
+
+.u-visible {
+    &\@lg {
+        @include breakpoint($width-lg) {
+            display:block;
+        }
+    }
+}

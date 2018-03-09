@@ -1,0 +1,22 @@
+// padding
+.u-padding {
+    &--top {
+      padding-top: $mobile-spacing-unit;
+      @include breakpoint($width-lg) {
+        padding-top: $grid-spacing-unit;
+      }
+    }
+    &--bottom {
+      padding-bottom: $mobile-spacing-unit;
+      @include breakpoint($width-lg) {
+        padding-bottom: $grid-spacing-unit;
+      }
+    }
+    &--all {
+      padding: $mobile-spacing-unit;
+      @include breakpoint($width-lg) {
+        padding: $grid-spacing-unit;
+      }
+    }
+  }
+  

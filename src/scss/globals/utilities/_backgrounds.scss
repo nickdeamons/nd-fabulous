@@ -1,0 +1,17 @@
+.u-bg-c {
+  &--blue {
+    background-color: $color-blue;
+  }
+  &--green {
+    background-color: $color-green;
+  }
+  &--gray {
+    background-color: $color-gray--mid;
+  }
+  &--error {
+    background-color: $color-error;
+  }
+  &--white {
+      background-color:white;
+  }
+}

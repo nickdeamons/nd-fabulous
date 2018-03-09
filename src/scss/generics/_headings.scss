@@ -1,0 +1,17 @@
+.h {
+  &-xl {
+    font-size:2.4em;
+    @include breakpoint($width-md) {
+      font-size: 3.2em;
+    }
+  }
+  &-lg {
+    font-size: 2.4em;
+  }
+  &-md {
+    font-size: 2em;
+  }
+  &-sm {
+    font-size: 1.75em;
+  }
+}

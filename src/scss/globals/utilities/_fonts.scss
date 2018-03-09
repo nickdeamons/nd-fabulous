@@ -1,0 +1,16 @@
+
+.u-font {
+    &--2x {
+      font-size:1.5em;
+      @include breakpoint($width-md) {
+        font-size: 2em;
+      }
+      
+    }
+    &--center {
+      text-align: center;
+    }
+  }
+  
+  
+  

@@ -1,0 +1,82 @@
+.grid {
+  width: 100%;
+  display: grid;
+
+  &--opt-1 {
+    // home page feature area
+    grid-row-gap: $mobile-spacing-unit;
+    grid-column-gap: $mobile-spacing-unit;
+    @include breakpoint($width-lg) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+     
+      div:nth-child(4n + 1) {
+        grid-column: auto / span 2;
+      }
+      div:nth-child(4n + 2) {
+        grid-row: auto / span 2;
+      }
+    }
+  }
+  &--opt-2 {
+    // home page feature area
+    @include breakpoint($width-lg) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-rows: auto;
+      div:nth-child(4n + 1) {
+        grid-column: auto / span 3;
+      }
+    }
+  }
+  &--base {
+    // tell this to gain default spacing
+    grid-row-gap: $grid-spacing-unit;
+    grid-column-gap: $grid-spacing-unit;
+    @include breakpoint($width-md) {
+      grid-column-gap: $grid-spacing-unit * 2;
+      grid-row-gap: $grid-spacing-unit * 2;
+    }
+  }
+  &--2 {
+    @include breakpoint($width-sm) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  &--3 {
+    // general 1-2-3 column
+
+    @include breakpoint($width-sm) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include breakpoint($width-md) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  &--4 {
+    @include breakpoint($width-sm) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include breakpoint($width-md) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  &--2-3 {
+    @include breakpoint($width-sm) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include breakpoint($width-md) {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+
+  &--2-3--reverse {
+    @include breakpoint($width-sm) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include breakpoint($width-md) {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  
+}

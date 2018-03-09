@@ -1,0 +1,43 @@
+{
+  "name": "webpack-begin-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "breakpoint-sass": "^2.7.1",
+    "browser-sync": "^2.23.6",
+    "css-loader": "^0.28.10",
+    "del": "^3.0.0",
+    "fabricator-assemble": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-svgstore": "^6.1.1",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "run-sequence": "^2.2.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.2.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^4.1.1"
+  }
+}

@@ -1,0 +1,8 @@
+.u-border {
+  &--all {
+    border: 1px solid rgba($color-gray--mid, 0.25);
+  }
+  &--bottom {
+    border-bottom: 1px solid rgba($color-gray--mid, 0.25);
+  }
+}

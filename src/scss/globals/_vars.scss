@@ -1,0 +1,29 @@
+// screen sizes
+
+$width-xs: 20em;
+$width-sm: 25em;
+$width-md: 40em;
+$width-mid: 48em;
+$width-lg: 64em;
+$width-xl: 76em;
+$width-xxl: 90em;
+
+// colors
+
+$color-blue: rgb(44, 122, 160);
+$color-blue--lightest: rgb(60, 170, 224);
+$color-green: rgb(138, 160, 44);
+$color-green--lightest: rgb(178, 206, 57);
+$color-error: rgb(160, 44, 44);
+
+$color-gray--mid: rgb(47, 48, 47);
+
+
+// spacing
+
+$grid-spacing-unit: 2rem;
+$mobile-spacing-unit: 1rem;
+
+// z-indexes 
+
+$overlay-base-index: 1000;

@@ -1,0 +1,27 @@
+@import "./node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import 'globals/vars';
+@import 'globals/utilities/shadows';
+
+@import 'globals/resets';
+
+
+@import 'generics/buttons'; 
+@import 'generics/paragraph'; 
+@import 'generics/headings'; 
+
+
+@import 'elements/cards';
+@import 'elements/hero';
+@import 'elements/navigations/nav-list';
+
+
+@import 'globals/utilities/backgrounds';
+@import 'globals/utilities/colors';
+@import 'globals/utilities/fonts';
+@import 'globals/utilities/grids';
+@import 'globals/utilities/margins';
+@import 'globals/utilities/overlays';
+@import 'globals/utilities/paddings';
+@import 'globals/utilities/wrap';
+@import 'globals/utilities/visibility';
+@import 'globals/utilities/utilities';

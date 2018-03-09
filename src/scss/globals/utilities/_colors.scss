@@ -1,0 +1,22 @@
+.u-color {
+  &--gray-m {
+    color: $color-gray--mid;
+  }
+  &--blue {
+    color: $color-blue;
+  }
+  &--green {
+    color: $color-green;
+  }
+  &--green--lightest {
+    color: $color-green--lightest;
+  }
+  &--white {
+    color:white;
+  }
+}
+
+
+.u-error {
+  color:$color-error;
+}
