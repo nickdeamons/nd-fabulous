@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      message: "My first view component is here!"
+      message: "My first view component is here again and again!"
     };
   },
   created: function() {
