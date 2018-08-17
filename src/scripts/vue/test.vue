@@ -1,6 +1,5 @@
 <template>
     <div v-on:click="hi" class='test'>
-        
         {{message}}
     </div>
 </template>
